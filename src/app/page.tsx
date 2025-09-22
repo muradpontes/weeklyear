@@ -46,7 +46,7 @@ export default function WeeklyCollage() {
       scale: 3,
     });
     const link = document.createElement("a");
-    link.download = "weeklyar.png";
+    link.download = "weeklyear.png";
     link.href = canvas.toDataURL("image/png");
     link.click();
   };
