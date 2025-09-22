@@ -61,7 +61,7 @@ export default function WeeklyCollage() {
       <h1 className="text-2xl sm:text-xl font-bold mb-4 text-center">
         weeklyear
       </h1>
-      <h1 className="text-xl sm:text-sm font-bold mb-4 text-center">
+      <h1 className="text-sm sm:text-sm font-bold mb-4 text-center">
         a collage of your most streamed album of each week of the year!
       </h1>
       <div className="flex flex-col items-center gap-3 w-full max-w-xs">
