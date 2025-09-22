@@ -43,6 +43,7 @@ export default function WeeklyCollage() {
     const canvas = await html2canvas(collage, {
       useCORS: true,
       backgroundColor: null,
+      scale: 3,
     });
     const link = document.createElement("a");
     link.download = "weeklyar.png";
